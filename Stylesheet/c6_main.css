@@ -18,27 +18,6 @@ body {
     background-color: #fffded;
 }
 
-main section {
-	width: 525px; 
-	float: right; 
-	padding-right:20px;
-	padding-left:20px;
-	padding-bottom:20px;
-}
-
-main aside{
-	width: 215px;
-	float:right;
-	padding-left:20px;
-	padding-bottom:20px;
-}
-
-section h2{
-	
-}
-
-
-
 a:focus, a:hover {
 	font-style: italic;
 }
@@ -77,34 +56,52 @@ h1{
 	padding-bottom: 0.25ems;
 	margin: 0; 
 }
-/* the styles for the main content */
+/* the styles for the sections and aside content */
 main {
 }
 
-main h2 {
+section {
+	width: 525px; 
+	float: right; 
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+section h2 {
 	color: #800000;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
-main h3 {
+
+aside{
+	width: 215px;
+	float:right;
+	padding: 0 20px 20px 0;
+}
+
+aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-main img {
+aside img {
 	padding-bottom: 1em;
 }
-main p {
+section p {
 	padding-bottom: .5em;
 }
 main blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
-main ul {
+section ul {
 	padding: 0 0 .25em 1.25em;
 }
-main li {
+section li {
 	padding-bottom: .35em;
+}
+
+section h2{
+	
 }
 
 /* the styles for the article */
@@ -142,11 +139,13 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em; 
+	float : left; 
 }
 
 
 aside h2{
 }
+
 
 /* the styles for the footer */
 footer {
