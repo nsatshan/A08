@@ -63,12 +63,7 @@ main {
 main {
 	padding: 0 30px;
 }
-main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-}
+
 main h2 {
 	color: #800000;
 	font-size: 130%;
@@ -127,4 +122,5 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+	clear: both;
 }
