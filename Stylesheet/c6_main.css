@@ -32,7 +32,7 @@ section h2{
 
 main aside{
 	width: 215px;
-	float:right;
+	float:left;
 	padding-left:20px;
 	padding-bottom:20px;
 }
@@ -139,6 +139,7 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+	float: left; 
 }
 
 aside h2{
