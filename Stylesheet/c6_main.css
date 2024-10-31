@@ -67,7 +67,6 @@ header img {
 }
 /* the styles for the main content */
 main {
-	clear: left; 
 }
 
 main h2 {
@@ -126,7 +125,8 @@ aside h2{
 /* the styles for the footer */
 footer {
 	background-color: #931420;
-	clear: both;
+	clear: left;
+	clear: right; 
 }
 footer p {
 	text-align: center;
