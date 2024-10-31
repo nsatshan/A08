@@ -75,7 +75,7 @@ section h2 {
 
 aside{
 	width: 215px;
-	float:right;
+	float:left;
 	padding: 0 20px 20px 0;
 }
 
@@ -150,7 +150,7 @@ aside h2{
 /* the styles for the footer */
 footer {
 	background-color: #931420;
-	clear : right; 
+	clear : left; 
 }
 footer p {
 	text-align: center;
