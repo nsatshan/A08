@@ -30,12 +30,7 @@ section h2{
 	
 }
 
-main aside{
-	width: 215px;
-	float:left;
-	padding-left:20px;
-	padding-bottom:20px;
-}
+
 
 a:focus, a:hover {
 	font-style: italic;
@@ -138,8 +133,14 @@ aside h3 {
 	padding-bottom: .25em;
 }
 aside img {
-	padding-bottom: 1em;
-	float: left; 
+	padding-bottom: 1em; 
+}
+
+aside{
+	width: 215px;
+	float:left;
+	padding-left:20px;
+	padding-bottom:20px;
 }
 
 aside h2{
