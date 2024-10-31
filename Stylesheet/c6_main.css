@@ -26,6 +26,13 @@ main section {
 	padding-bottom:20px;
 }
 
+main aside{
+	width: 215px;
+	float:right;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
 section h2{
 	
 }
@@ -128,6 +135,7 @@ article h3 {
 
 /* the styles for the aside */
 
+
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
@@ -136,12 +144,6 @@ aside img {
 	padding-bottom: 1em; 
 }
 
-aside{
-	width: 215px;
-	float:left;
-	padding-left:20px;
-	padding-bottom:20px;
-}
 
 aside h2{
 }
@@ -149,7 +151,6 @@ aside h2{
 /* the styles for the footer */
 footer {
 	background-color: #931420;
-	clear: right; 
 }
 footer p {
 	text-align: center;
