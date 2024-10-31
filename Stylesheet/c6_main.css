@@ -15,21 +15,7 @@ body {
     background-color: #fffded;
 }
 
-section{
-	width: 525px;
-	float: right;
-	padding-left: 20px; 
-	padding-right: 20px;
-	padding-bottom: 20px; 
 
-}
-
-aside{
-	width: 215px; 
-	float: right;
-	padding-left: 20px; 
-	padding-bottom: 20px;
-}
 
 a:focus, a:hover {
 	font-style: italic;
@@ -94,6 +80,13 @@ main li {
 	padding-bottom: .35em;
 }
 
+/* section styles */
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+
 /* the styles for the article */
 article {
 	padding: .5em 0;
@@ -109,6 +102,12 @@ article h3 {
 }
 
 /* the styles for the aside */
+
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
 
 aside h3 {
 	font-size: 105%;
