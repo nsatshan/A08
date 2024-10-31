@@ -65,6 +65,13 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+
+h1{
+	font-size: 150%;
+	padding-top: 0.5ems;
+	padding-bottom: 0.25ems;
+	margin: 0; 
+}
 /* the styles for the main content */
 main {
 }
@@ -100,6 +107,18 @@ article {
 	padding: .5em 0;
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
+}
+
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	margin-bottom: 0;
+	margin-left: 0; 
+	margin-top: 0; 
+	border: 1px solid black;
+	float : right; 
+	border: 1px black; 
+	
 }
 article h2 {
 	padding-top: 0;
