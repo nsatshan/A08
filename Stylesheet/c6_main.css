@@ -1,7 +1,4 @@
 /* the styles for the elements */
-
-@import url('https://nsatshan.github.io/A08/Stylesheet/c6_speaker.css');
-
 * {
 	margin: 0;
 	padding: 0;
@@ -16,6 +13,17 @@ body {
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
+}
+
+section{
+	width: 525px;
+	float: right;
+
+}
+
+aside{
+	width: 215px; 
+	float: right;
 }
 
 a:focus, a:hover {
@@ -49,59 +57,43 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-
-h1{
-	font-size: 150%;
-	padding-top: 0.5ems;
-	padding-bottom: 0.25ems;
-	margin: 0; 
-}
-/* the styles for the sections and aside content */
+/* the styles for the main content */
 main {
+	clear: left;
 }
-
-section {
-	width: 525px; 
-	float: right; 
-	padding-right:20px;
-	padding-left:20px;
-	padding-bottom:20px;
+main {
+	padding: 0 30px;
 }
-section h2 {
+main h1 {
+	font-size: 150%;
+	padding: .3em 0;
+    border-top: 3px solid #931420;
+    border-bottom: 3px solid #931420;
+}
+main h2 {
 	color: #800000;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
-
-aside{
-	width: 215px;
-	float:left;
-	padding: 0 20px 20px 0;
-}
-
-aside h3 {
+main h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-aside img {
+main img {
 	padding-bottom: 1em;
 }
-section p {
+main p {
 	padding-bottom: .5em;
 }
 main blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
-section ul {
+main ul {
 	padding: 0 0 .25em 1.25em;
 }
-section li {
+main li {
 	padding-bottom: .35em;
-}
-
-section h2{
-	
 }
 
 /* the styles for the article */
@@ -109,18 +101,6 @@ article {
 	padding: .5em 0;
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
-}
-
-article img {
-	float: right;
-	margin: .5em 0 1em 1em;
-	margin-bottom: 0;
-	margin-left: 0; 
-	margin-top: 0; 
-	border: 1px solid black;
-	float : right; 
-	border: 1px black; 
-	
 }
 article h2 {
 	padding-top: 0;
@@ -132,25 +112,17 @@ article h3 {
 
 /* the styles for the aside */
 
-
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
 aside img {
-	padding-bottom: 1em; 
-	float : left; 
+	padding-bottom: 1em;
 }
-
-
-aside h2{
-}
-
 
 /* the styles for the footer */
 footer {
 	background-color: #931420;
-	clear : left; 
 }
 footer p {
 	text-align: center;
